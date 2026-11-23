@@ -37,7 +37,7 @@
   "eta": {"sha":"f91ddda119a233d07199e61b6221a018f1afded6","imports":[["hermes_cli.config","load_config_readonly","__init__.py:34"],["tools.registry","registry","__init__.py:125"],["hermes_constants","get_hermes_home","__init__.py:145"],["plugins.plugin_storage","plugin_db","store.py:38"]],"choices":[[[["agent.secret_scope","is_multiplex_active","__init__.py:45"]],[]]]},
   "ethics-filter": {"sha":"f117850d99c9dbcac0aab84625f50cc7a6853108","subdir":"plugin"},
   "eu-mode": {"sha":"80f82114ba9fc7e9412303ee4b1c87625fcf93d8","choices":[[[["hermes_cli.config","load_config_readonly","__init__.py:76"]],[]],[[["agent.secret_scope","get_secret","__init__.py:134"]],[]],[[["hermes_constants","get_hermes_home","__init__.py:164"]],[]]]},
-  "evalroute": {"sha":"12fc0397e47ae60bcf45eba4c1529971b3e032a9"},
+  "evalroute": {"sha":"1a05b9fda541e86f84eb01e0a45247b86d19eced"},
   "evaluation-ledger": {"sha":"48befeaf71f0bfed7916553d1a511c81a37a9c4b","subdir":"plugins/evaluation-ledger","imports":[["plugins.plugin_storage","plugin_data_dir","common.py:14"]]},
   "event-read": {"sha":"00e8aed782ad3d81e1fbc30abb202e3caf9a4dc0","imports":[["agent.secret_scope","get_secret","__init__.py:13"],["cron.execution_identity","","service.py:154"],["plugins.plugin_storage","","service.py:180"]],"choices":[[[["agent.file_safety","","service.py:191"]],[]]]},
   "eventforge": {"sha":"1b556629b6a20d1f8194beaab8c38253cd837c64","subdir":"plugins/hermes-eventforge","choices":[[[["plugins.plugin_storage","plugin_data_dir","bundle.py:22"]],[]],[[["gateway.session_context","get_session_env","runtime.py:10"]],[]],[[["agent.secret_scope","get_secret","settings.py:12"]],[]]]},
